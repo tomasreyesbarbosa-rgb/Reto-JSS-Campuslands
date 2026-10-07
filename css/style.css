@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.input-section, .output-section {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+}
