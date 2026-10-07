@@ -9,3 +9,9 @@ function agregar() {
         input.value = '';
     }
 }
+
+function limpiar() {
+    nombres = [];
+    document.getElementById('resultado').value = '';
+    document.getElementById('nombre').value = '';
+}
