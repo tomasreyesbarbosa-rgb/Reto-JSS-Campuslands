@@ -2,42 +2,29 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ordenar Arrays de Cadenas</title>
+    <title>Ordenar Nombres</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <main class="container">
-        <h1>Ordenar Arrays de Cadenas</h1>
-        <p class="subtitle">Ingrese nombres en la caja de texto de abajo y ordene este listado el cual apareceran en el área de texto</p>
+    <h1>Ordenar Arrays de Cadenas</h1>
+    <p>Ingrese nombres en la caja de texto de abajo y ordene este listado el cual apareceran en el área de texto</p>
 
-        <form id="form-nombres" class="input-section">
-            <label for="input-nombre">Nombre:</label>
-            <input type="text" id="input-nombre" placeholder="Ingrese un nombre" required>
-            <button type="submit" id="btn-agregar">Agregar y ordenar nombre</button>
-        </form>
+    <div>
+        <label>Nombre:</label>
+        <input type="text" id="nombre">
+        <button onclick="agregar()">Agregar y ordenar nombre</button>
+    </div>
 
-        <hr>
+    <hr>
 
-        <h2>Nombres ordenados</h2>
+    <h2>Nombres ordenados</h2>
 
-        <div class="output-section">
-            <textarea id="area-nombres" readonly placeholder="Aqui apareceran lo nombres ordenados"></textarea>
-            <button type="button" id="btn-limpiar">Limpiar</button>
-        </div>
-    </main>
+    <div>
+        <textarea id="resultado" readonly placeholder="Aqui apareceran lo nombres ordenados"></textarea>
+        <button onclick="limpiar()">Limpiar</button>
+    </div>
 
     <script src="js/JavaScript.js"></script>
-</body>
-</html><!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
 </body>
 </html>
